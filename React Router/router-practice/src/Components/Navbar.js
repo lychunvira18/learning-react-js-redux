@@ -2,9 +2,9 @@ import React from "react";
 import { Link, NavLink, withRouter } from "react-router-dom";
 
 const Navbar = props => {
-  setTimeout(() => {
-    props.history.push("/about");
-  }, 5000);
+  //   setTimeout(() => {
+  //     props.history.push("/about");
+  //   }, 5000);
   return (
     <div>
       <nav className="nav-wrapper blue lighten-3">
