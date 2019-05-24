@@ -9,12 +9,12 @@ const Navbar = props => {
     <div>
       <nav className="nav-wrapper blue lighten-3">
         <div className="container">
-          <a href="/" className="brand-logo">
+          <Link to="/" className="brand-logo">
             Router
-          </a>
+          </Link>
           <ul className="right">
             <li>
-              <Link to="/">Home</Link>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
               <NavLink to="/about">About</NavLink>
